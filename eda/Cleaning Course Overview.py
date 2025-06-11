@@ -4,7 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # view first five and last five data points
-course = pd.read_csv("OEDI Course Overview Data.csv")
+course = pd.read_csv("./data/OEDI Course Overview Data.csv")
+### I changed the path to match the location of the file, I'm pretty sure it is supposed to have two dots before the slash but it only works with one.
+
+
 print(course.head())
 print(course.tail())
 
